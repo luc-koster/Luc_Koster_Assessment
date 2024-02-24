@@ -55,5 +55,5 @@ success, nchunks, nrows, _ = write_pandas(cnn, df, "PROJECT_SALES", auto_create_
 print(str(success) + ", " + str(nchunks) + ", " + str(nrows))
 cnn.close()
 print("done.")
-
+print("Test")
 
